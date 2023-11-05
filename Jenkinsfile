@@ -39,7 +39,7 @@ pipeline {
     stage('Github') {
       steps {
         git branch: branchName,
-          url: 'https://github.com/NadaYh/ProjetDevopsNada.git',
+          url: 'https://github.com/NadaYh/DevopsFrontt.git',
           credentialsId: 'githubId'
       }
     }
